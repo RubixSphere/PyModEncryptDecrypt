@@ -59,6 +59,8 @@ Happy encrypting and decrypting! :)
 
 #### Troubleshooting:
 
+1.
+
 ```
 ValueError: Fernet key must be 32 url-safe base64-encoded bytes.
 
@@ -68,6 +70,17 @@ binascii.Error: Incorrect padding
 ```
 
 You have provided a key to the decrypt action that is not the exact base64 value printed to standard out after the encrypt command. Please copy and paste the entire base64 string from the encrypt action's print to standard out in its entirety.
+
+2.
+
+```
+   python .\encrypt_decrypt.py --action decrypt --input_file encrypted_message.txt --key "-RiW-iwo5jCTg3w4-Ct4xALnTyDI6i0cMcVkBEr2J54="
+usage: encrypt_decrypt.py [-h] --action {encrypt,decrypt} [--input_file INPUT_FILE] [--output_file OUTPUT_FILE] [--message MESSAGE] [--key KEY]
+encrypt_decrypt.py: error: argument --key: expected one argument
+```
+
+If your key that is generated includes hyphens then just regenerate that key as this causes issues parsing the key vs the arguments even if you wrap the key in quotes. The encrypt action will generate a new key without hyphens more often than not.
+
 
 #### Contributing Guidelines:
 
