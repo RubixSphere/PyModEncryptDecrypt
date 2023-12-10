@@ -38,11 +38,11 @@ def read_encrypted_msg(file_path, key):
 # Parse the arguments and pass them to the script.
 
 def main():
-    parser = argparse.ArgumentParser(description='Encrypt and decrypt msgs using a custom key with the Fernet library')
+    parser = argparse.ArgumentParser(description='Encrypt and decrypt messages using a custom key with the Fernet library and output the encrypted file to a custom filename')
     parser.add_argument('--action', choices=['encrypt', 'decrypt'], required=True, help='Action to perform (encrypt or decrypt)')
     parser.add_argument('--input_file', help='Input file path')
     parser.add_argument('--output_file', help='Output file path')
-    parser.add_argument('--message', help='message to encrypt')
+    parser.add_argument('--message', help='Message to encrypt')
     parser.add_argument('--key', help='Encryption/Decryption key')
 
     args = parser.parse_args()
