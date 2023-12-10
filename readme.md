@@ -62,10 +62,11 @@ This is my super secret message that no body should see without my base64 key
 
 ```
 python.exe .\encrypt_decrypt.py -h
-usage: encrypt_decrypt.py [-h] --action {encrypt,decrypt} [--input_file INPUT_FILE] [--output_file OUTPUT_FILE]
-                          [--message MESSAGE] [--key KEY]
+usage: encrypt_decrypt.py [-h] --action {encrypt,decrypt} [--input_file INPUT_FILE]
+                          [--output_file OUTPUT_FILE] [--message MESSAGE] [--key KEY]
 
-Encrypt and decrypt msgs using a custom key with the Fernet library
+Encrypt and decrypt messages using a custom key with the Fernet library and output the
+encrypted file to a custom filename
 
 options:
   -h, --help            show this help message and exit
@@ -75,7 +76,7 @@ options:
                         Input file path
   --output_file OUTPUT_FILE
                         Output file path
-  --message MESSAGE     message to encrypt
+  --message MESSAGE     Message to encrypt
   --key KEY             Encryption/Decryption key
 ```
 
