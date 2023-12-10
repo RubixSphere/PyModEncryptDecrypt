@@ -120,9 +120,6 @@ If your key that is generated includes hyphens at the very beginning of the key 
 
 Educational assignment for Python for Networking.
 
-Creative Commons Attribution 4.0 International
-
-
 
 
 
