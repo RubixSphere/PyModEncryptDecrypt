@@ -81,7 +81,9 @@ You have provided a key to the decrypt action that is not the exact base64 value
 
 #### License:
 
-GPL License. Do with this code as you please, open source everything. :)
+Educational.
+
+Assignment for Python for Networking.
 
 
 
