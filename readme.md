@@ -5,7 +5,7 @@
 This encrypt_decrypt.py script is designed to do two actions:
 
 1. Encrypt a custom message passed to the script, provide the base64 value of the key parameter's value as a string and save the encrypted version of the message to a filename of the user's choosing.
-2. Decrypt the message saved as an encrypted string within the file when the base64 string is provided with the decode action as the key's parameter value and print the file's decrypted contents to standard out.
+2. Decrypt the message saved as an encrypted string within the file when the base64 string is provided as the key's parameter value and print the file's decrypted contents to standard out.
 
 Happy encrypting and decrypting! :)
 
