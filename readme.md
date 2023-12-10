@@ -25,11 +25,17 @@ Happy encrypting! :)
 
 ```pip3 install argparse```
 
-#### How to install this Module:
+#### How to install this Module with Git:
 
 1. Open your terminal of choice on your operating system of choice.
 2. Navigate your folder structure to where you want to store this module.
-3. Run this command: ```git clone
+3. Run this command: ```git clone https://github.com/RubixSphere/PyModEncryptDecrypt.git```
+
+#### How to install this Module without Git:
+
+1. Click the green "Code" button in the top right of this repo.
+2. Select "Download ZIP"
+3. Unzip the archive and then you can run the commands listed in the usage examples below from your terminal of choice.
 
 #### Usage examples:
 
