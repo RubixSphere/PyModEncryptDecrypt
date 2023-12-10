@@ -41,19 +41,22 @@ Happy encrypting and decrypting! :)
 
 ##### Encrypt:
 
-```python .\encrypt_decrypt.py --action encrypt --message "This is my super secret message that no body should see without my base64 key" --output_file encrypted_message.txt --key NobodyWillGuessThisKey```
+```
+python .\encrypt_decrypt.py --action encrypt --message "This is my super secret message that no body should see without my base64 key" --output_file encrypted_message.txt --key NobodyWillGuessThisKey
 
-```Output: Message has been encrypted successfully, yay! Use this key as the value for the --key parameter when you want to decrypt: OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
+Output: Message has been encrypted successfully, yay! Use this key as the value for the --key parameter when you want to decrypt: OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=
+```
 
 *Base64 version of key is displayed to standard out and you will use this value to decrypt in the next step*
 
 ##### Decrypt:
 
-```python .\encrypt_decrypt.py --action decrypt --input_file encrypted_message.txt --key OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
+```
+python .\encrypt_decrypt.py --action decrypt --input_file encrypted_message.txt --key OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=
 
-```Output: I decrypted the message and this is what it says:```
-
-```This is my super secret message that no body should see without my base64 key```
+Output: I decrypted the message and this is what it says:
+This is my super secret message that no body should see without my base64 key
+```
 
 #### Help:
 
