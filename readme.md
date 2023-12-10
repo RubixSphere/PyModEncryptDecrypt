@@ -4,8 +4,8 @@
 
 This encrypt_decrypt.py script is designed to do two actions:
 
-1. Encrypt a message passed to the script, provide the base64 key string and save it to a file.
-2. Decrypt the message saved as an encrypted string within the file when the base64 string is provided and print the file's decrypted contents to standard out.
+1. Encrypt a custom message passed to the script, provide the base64 value of the key parameter's value as a string and save the encrypted version of the message to a filename of the user's choosing.
+2. Decrypt the message saved as an encrypted string within the file when the base64 string is provided with the decode action as the key's parameter value and print the file's decrypted contents to standard out.
 
 Happy encrypting! :)
 
@@ -24,6 +24,12 @@ Happy encrypting! :)
 
 
 ```pip3 install argparse```
+
+#### How to install this Module:
+
+1. Open your terminal of choice on your operating system of choice.
+2. Navigate your folder structure to where you want to store this module.
+3. Run this command: ```git clone
 
 #### Usage examples:
 
@@ -46,5 +52,33 @@ Happy encrypting! :)
 
 
 #### Troubleshooting:
+
+```
+ValueError: Fernet key must be 32 url-safe base64-encoded bytes.
+
+OR
+
+binascii.Error: Incorrect padding
+```
+
+You have provided a key to the decrypt action that is not the exact base64 value printed to standard out after the encrypt command. Please copy and paste the entire base64 string from the encrypt action's print to standard out in its entirety.
+
+#### Contributing Guidelines:
+
+- Don't open any GitHub issues before reading the entire Readme.md and paying special attention to the troubleshooting and usage sections.
+- Make sure if you have a bug or issue to report that you answer the following questions below in your report:
+1. Is the issue consistently replicable?
+2. At what point did the issue happen?
+3. What command did you run?
+4. Are all dependencies installed?
+5. What operating system are you running?
+
+#### License:
+
+GPL License. Do with this code as you please, open source everything. :)
+
+
+
+
 
 
