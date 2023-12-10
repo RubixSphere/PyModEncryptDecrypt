@@ -14,11 +14,15 @@ Happy encrypting! :)
 - If you haven't already then you will need to run the following command from terminal of choice:
 
 [Cryptography Library](https://pypi.org/project/cryptography/)
+
+
 ```pip3 install cryptography```
 
 - You shouldn't have to pip install argparse as it is a standard library with Python. If for whatever reason you did not have argparse then the command would be as such below:
 
 [ArgParse Standard Python Library](https://docs.python.org/3/library/argparse.html)
+
+
 ```pip3 install argparse```
 
 #### Usage examples:
