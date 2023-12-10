@@ -27,7 +27,7 @@ Happy encrypting! :)
 
 ```Output: Message has been encrypted successfully, yay! Use this key as the value for the --key parameter when you want to decrypt: OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
 
-* Base64 version of key is displayed to standard out and you will use this value to decrypt in the next step *
+*** Base64 version of key is displayed to standard out and you will use this value to decrypt in the next step ***
 
 ##### Decrypt:
 
