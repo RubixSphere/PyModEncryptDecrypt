@@ -55,6 +55,26 @@ Happy encrypting and decrypting! :)
 
 ```This is my super secret message that no body should see without my base64 key```
 
+#### Help:
+
+```
+python.exe .\encrypt_decrypt.py -h
+usage: encrypt_decrypt.py [-h] --action {encrypt,decrypt} [--input_file INPUT_FILE] [--output_file OUTPUT_FILE]
+                          [--message MESSAGE] [--key KEY]
+
+Encrypt and decrypt msgs using a custom key with the Fernet library
+
+options:
+  -h, --help            show this help message and exit
+  --action {encrypt,decrypt}
+                        Action to perform (encrypt or decrypt)
+  --input_file INPUT_FILE
+                        Input file path
+  --output_file OUTPUT_FILE
+                        Output file path
+  --message MESSAGE     message to encrypt
+  --key KEY             Encryption/Decryption key
+```
 
 
 #### Troubleshooting:
