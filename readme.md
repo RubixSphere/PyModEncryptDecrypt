@@ -94,9 +94,9 @@ If your key that is generated includes hyphens then just regenerate that key as 
 
 #### License:
 
-Educational.
+Educational assignment for Python for Networking.
 
-Assignment for Python for Networking.
+Creative Commons Attribution 4.0 International
 
 
 
