@@ -49,7 +49,7 @@ Happy encrypting and decrypting! :)
 
 ##### Decrypt:
 
-```python .\encrypt.py --action decrypt --input_file encrypted_message.txt --key OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
+```python .\encrypt_decrypt.py --action decrypt --input_file encrypted_message.txt --key OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
 
 ```Output: I decrypted the message and this is what it says:```
 
