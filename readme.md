@@ -34,6 +34,7 @@ Happy encrypting! :)
 ```python .\encrypt.py --action decrypt --input_file encrypted_message.txt --key OGoxB0VUOGQBf8UapQVxqFKgdY5tiJmgYNFB4yaSe1g=```
 
 ```Output: I decrypted the message and this is what it says:```
+
 ```This is my super secret message that no body should see without my base64 key```
 
 
