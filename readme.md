@@ -103,7 +103,7 @@ usage: encrypt_decrypt.py [-h] --action {encrypt,decrypt} [--input_file INPUT_FI
 encrypt_decrypt.py: error: argument --key: expected one argument
 ```
 
-If your key that is generated includes hyphens then just regenerate that key as this causes issues parsing the key vs the arguments even if you wrap the key in quotes. The encrypt action will generate a new key without hyphens more often than not.
+If your key that is generated includes hyphens at the very beginning of the key then just regenerate that key by running the encrypt command parameters again as this causes issues parsing the key vs the arguments even if you wrap the key value in quotes. The encrypt action will generate a new key without hyphens more often than not.
 
 
 #### Contributing Guidelines:
